@@ -18,7 +18,7 @@ let path = {
         pug: [sourceFolder + "/*.pug", sourceFolder + "/views/pages/*.pug"],
         css: sourceFolder + "/scss/main.scss",
         js: sourceFolder + "/js/*.js",
-        img: sourceFolder + "/img/**/*.{jpg, png, svg, gif, ico, webp}",
+        img: sourceFolder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts: sourceFolder + "/fonts/*.ttf"
     },
 
@@ -27,7 +27,7 @@ let path = {
         pug: sourceFolder + "/**/*.pug",
         css: sourceFolder + "/**/*.scss",
         js: sourceFolder + "/**/*.js",
-        img: sourceFolder + "/img/**/*.{jpg, png, svg, gif, ico, webp}",
+        img: sourceFolder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
     },
 
     clean: "./" + projectFolder + "/"
