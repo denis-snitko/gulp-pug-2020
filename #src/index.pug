@@ -1,12 +1,14 @@
 extends views/layouts/default
 
 block variables
-	- const title = ""
+	- const title = "PUG СБОРКА"
 
 block content
-	include ./modules/header/_header.pug
-	main
+	.main-body
+		include ./modules/header/_header.pug
+		.main-content main-content
+		footer footer
 
 block scripts
-	script(src="./assets/js/vendors.js")
-	script(src="./assets/js/main.js")
+	script(src="./js/vendors.js")
+	script(src="./js/main.js")
