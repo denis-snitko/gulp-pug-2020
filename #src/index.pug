@@ -1,14 +1,23 @@
 extends views/layouts/default
 
 block variables
-	- const title = "PUG СБОРКА"
+    - const title = "PUG СБОРКА"
 
 block content
-	.main-body
-		include ./modules/header/_header.pug
-		.main-content main-content
-		footer footer
+    .main-body
+        include ./modules/header/_header.pug
+        .main-content
+            .swiper-container
+                .swiper-wrapper
+                    .swiper-slide 1
+                    .swiper-slide 2
+                    .swiper-slide 3
+                    .swiper-slide 4
+                    .swiper-slide 5
+                .swiper-button-prev            
+                .swiper-button-next            
+        footer footer
 
 block scripts
-	script(src="./js/vendors.js")
-	script(src="./js/main.js")
+    script(src="./js/vendors.js")
+    script(src="./js/main.js")
